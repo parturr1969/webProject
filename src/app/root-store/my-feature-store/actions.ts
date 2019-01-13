@@ -1,5 +1,5 @@
 import {Action} from '@ngrx/store';
-import {MyModel} from '../../models';
+import {MyModel} from '../../models/my-model';
 
 
 export enum ActionTypes {

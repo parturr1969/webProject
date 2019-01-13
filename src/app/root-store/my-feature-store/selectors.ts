@@ -1,6 +1,6 @@
 import {createFeatureSelector, createSelector, MemoizedSelector} from '@ngrx/store';
 import { featureAdapter, State } from './state';
-import {MyModel} from '../../models';
+import {MyModel} from '../../models/my-model';
 
 
 export const getError = (state: State): any => state.error;

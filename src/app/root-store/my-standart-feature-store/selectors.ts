@@ -1,6 +1,6 @@
 import {createFeatureSelector, createSelector, MemoizedSelector} from '@ngrx/store';
-import { User } from '../models';
 import { State } from './state';
+import {User} from '../../models/user';
 
 const getError = (state: State): any => state.error;
 const getIsLoading = (state: State): boolean => state.isLoading;

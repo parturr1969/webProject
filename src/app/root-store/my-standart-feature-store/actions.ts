@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { User } from '../../models';
+import { User } from '../../models/user';
 
 export enum ActionTypes {
   LOGIN_REQUEST = '[My Feature] Login Request',
